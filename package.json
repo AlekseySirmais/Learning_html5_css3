@@ -1,0 +1,12 @@
+{
+  "name": "Learning_HTML5_CSS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ForFirstPage.js",
+  "scripts": {
+    "start": "node ForFirstPage.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

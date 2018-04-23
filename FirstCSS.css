@@ -1,0 +1,176 @@
+body
+{
+
+    font-family:'Segoe UI', Tahoma;
+background-image: url("fon.jpg");
+
+}
+
+header
+{
+
+
+    color: cornsilk;
+    text-align: center;
+}
+ nav > h3
+{
+    color: blue;
+}
+
+aside > h3
+{
+    color: red;
+}
+
+
+.tittle-grib{
+
+
+    width: 100%;
+
+    display: -moz-box;
+    display: -webkit-box;
+    display: flexbox;
+
+    -moz-box-orient: horizontal;
+    -webkit-box-orient: horizontal;
+    box-orient: horizontal;
+
+
+
+
+
+
+}
+
+.first-tittle
+{
+
+
+
+    padding: 5px;
+ margin-left: 38%;
+
+}
+.second-tittle
+{
+
+
+   border-radius: 10px;
+    background: dimgray;
+    padding: 5px;
+
+
+
+}
+
+.third-tittle
+{
+
+    width: 20%;
+
+    padding: 5px;
+
+
+}
+
+
+
+
+
+
+
+
+
+.grid {
+
+    width: 100%;
+
+    display: -moz-box;
+    display: -webkit-box;
+    display: flexbox;
+
+
+}
+
+.block1 {
+    text-align: center;
+    border: 1px solid black;
+    max-width: 14%;
+    background: dimgray;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+    height: 600px;
+
+
+    -moz-box-flex: 0.8;
+    -webkit-box-flex: 0.8;
+    box-flex:0.8;
+    -webkit-box-sizing: border-box;
+
+}
+
+.block2 {
+    border: 1px solid black;
+    max-width: 70%;
+    background: gainsboro ;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+    color: black;
+
+    -moz-box-flex: 15;
+    -webkit-box-flex: 15;
+    box-flex: 15;
+    -webkit-box-sizing: border-box;
+
+}
+.block3 {
+    text-align: left;
+    border: 1px solid black;
+    max-width: 5%;
+    background: dimgray;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+    height: 600px;
+    -webkit-box-sizing: border-box;
+
+    -moz-box-flex: 7;
+    -webkit-box-flex: 7;
+    box-flex: 7;
+
+}
+
+
+
+
+
+
+
+
+
+article > header
+{
+    color: black;
+}
+
+ul
+{
+    text-align: left;
+}
+
+
+footer
+
+{
+    max-width: 20%;
+    margin-left: 40%;
+    background-color: dimgray;
+    text-align: center;
+    color: orange;
+ height: 25px;
+    border-radius: 10px;
+}

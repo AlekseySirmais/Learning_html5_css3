@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TESTJS</title>
+    <script>
+        var foo =0;
+
+        window.onload=function(){ //функция которая вешает обработчик(и) на элемент с нужным айди
+            var mb = document.getElementById("BUT");
+            mb.addEventListener("click", inc);// 3 аргумент - где происходит захват событий true - по пути вниз, false - по пути вверх(всплытие) по умолчанию false
+
+        }
+
+        function inc() {
+
+            foo++;
+            console.log('foo= ',foo)// вывод в консоль браузера
+
+            var b = document.getElementById("TEXT")//ищет по айди текст
+            b.innerText='Ты изменил текст!  foo='+foo; // меняем текст и выводит переменную кликера
+        }
+
+
+
+    </script>
+</head>
+<body>
+<button id="BUT"> Нажми на меня </button>
+
+<h1 id="TEXT" > hello </h1>
+
+
+<P>   <a href="/FirstPage.html">  Вернуться на главную </a></P>
+</body>
+</html>
