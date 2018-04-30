@@ -5,6 +5,12 @@
 
     const server = http.createServer(function (request,response) { // создаем сервер, который будет отдавать то, что нужно =)
         console.log(request.method,request.url);
+
+        if (request.url=='/'){
+            const html = fs.readFileSync('FirstPage.html','utf8');
+            response.end(html);
+        }
+        
         if (request.url=='/FirstCSS.css'){
             const  css = fs.readFileSync('FirstCSS.css','utf8');
             response.end(css);
