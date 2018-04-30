@@ -29,6 +29,7 @@
         if (request.url=='/gameMenu.js') {
             const appjs = fs.readFileSync('gameMenu.js','utf8');
             response.end(appjs);
+
         }else response.end(); //это ПОСЛЕДНЕЕ УСЛОВИЕ!
 
 
@@ -43,10 +44,5 @@
 
     console.log('port= ',process.env.PORT);
 
-<<<<<<< HEAD
-    server.listen(3000);// перед комитом поенять на process.env.PORT
+    server.listen(process.env.PORT);// перед комитом поенять на process.env.PORT
     console.log('Server Started');
-=======
-    server.listen(process.env.PORT);
-    console.log('Server Started');
->>>>>>> 90b7a7d7c31da48961365546d35b87ee5891d4e0
