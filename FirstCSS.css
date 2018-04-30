@@ -24,6 +24,10 @@ aside > h3
 }
 
 
+
+
+
+
 .tittle-grib{
 
 
@@ -174,3 +178,80 @@ footer
  height: 25px;
     border-radius: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+.h1JS{
+    font-size: 40px;
+    border: 1px solid black;
+    border-radius: 25px;
+    max-width: 30%;
+    background-color: darkgrey;
+    color: gainsboro;
+    text-align: center;
+
+    margin-left:33%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+
+.h1JS1{/* для текстовых строк в тестал*/
+    margin: 20px;
+    padding-bottom:  20px;
+
+}
+
+
+
+P>a{
+
+    font-size: 21px;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 70%;
+    background-color: #31302c;
+    color: #beb49b;
+    text-align: center;
+
+   ;
+
+
+
+}
+
+.gridJS{
+
+    display: flexbox;
+    -moz-box-orient: vertical;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+
+    margin-left: 18%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+
+  .testJS1{
+      border: 5px white;
+      max-width: 80%;
+    background-color: gray;
+
+      text-align: center;
+
+      border-radius: 20px;
+
+
+  }

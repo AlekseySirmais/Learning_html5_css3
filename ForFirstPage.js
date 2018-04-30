@@ -16,12 +16,32 @@
         if (request.url=='/FirstPage.html') {
             const html = fs.readFileSync('FirstPage.html','utf8');
             response.end(html);
-        } else response.end();
+        }
 
-// css и html он возвращает, но необходимо возвращать еще и картинку и гифку!!!
+        if (request.url=='/Application.html') {
+            const apphtml = fs.readFileSync('Application.html','utf8');
+            response.end(apphtml);
+        }
+        if (request.url=='/CSSforApplication.css') {
+            const appcss = fs.readFileSync('CSSforApplication.css','utf8');
+            response.end(appcss);
+        }
+        if (request.url=='/gameMenu.js') {
+            const appjs = fs.readFileSync('gameMenu.js','utf8');
+            response.end(appjs);
+        }else response.end(); //это ПОСЛЕДНЕЕ УСЛОВИЕ!
+
+
+
+
+
+
+
+
+// css, html и js он возвращает, но необходимо возвращать еще и картинку и гифку!!! как это сделать? кодировка картинки?
     });
 
     console.log('port= ',process.env.PORT);
 
-    server.listen(3000);
+    server.listen(3000);// перед комитом поенять на process.env.PORT
     console.log('Server Started');

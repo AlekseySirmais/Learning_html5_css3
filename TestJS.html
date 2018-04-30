@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>TESTJS</title>
+    <link href="FirstCSS.css" rel="stylesheet"  >
     <script>
         var foo =0;
 
@@ -10,7 +11,7 @@
             var mb = document.getElementById("BUT");
             mb.addEventListener("click", inc);// 3 аргумент - где происходит захват событий true - по пути вниз, false - по пути вверх(всплытие) по умолчанию false
 
-        }
+        };
 
         function inc() {
 
@@ -19,18 +20,48 @@
 
             var b = document.getElementById("TEXT")//ищет по айди текст
             b.innerText='Ты изменил текст!  foo='+foo; // меняем текст и выводит переменную кликера
+            if (foo%10==0&&foo!=0){
+                var c = document.getElementById("SECONDTEXT")
+                c.hidden=false;
+                c.innerText='ты уже накликакал целых  '+foo+' раз!';
+
+
+            }
         }
 
 
 
     </script>
+
+
+
+
 </head>
-<body>
-<button id="BUT"> Нажми на меня </button>
+<body >
 
-<h1 id="TEXT" > hello </h1>
-
+<h1 class="h1JS"> Примеры JS</h1>
 
 <P>   <a href="/FirstPage.html">  Вернуться на главную </a></P>
+
+
+
+<div  class="gridJS">
+
+<div class="testJS1">
+
+<button   id="BUT" STYLE="margin-top:15px ; width: 200px;
+    height: 90px;"> Нажми на меня </button>
+
+<h1  class="h1JS1" id="TEXT" align="centre" > hello, change this text! press botton! </h1>
+
+    <h1 class="h1JS1"  id ="SECONDTEXT" align="centre" hidden="true" > </h1>
+
+
+
+
+</div>
+
+
+</div>
 </body>
 </html>
