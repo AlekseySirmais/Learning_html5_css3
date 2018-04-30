@@ -86,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ForFirstPage.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ForFirstPage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ForFirstPage.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="372">
-              <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
@@ -104,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestJS.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestJS.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestJS.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="-264">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="n#STYLE#0;n#button#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -137,7 +137,6 @@
         <option value="$PROJECT_DIR$/009_Example.html" />
         <option value="$PROJECT_DIR$/001_Float.html" />
         <option value="$PROJECT_DIR$/forgame.js" />
-        <option value="$PROJECT_DIR$/TestJS.html" />
         <option value="$PROJECT_DIR$/CSSforAplication.css" />
         <option value="$PROJECT_DIR$/aplication.html" />
         <option value="$PROJECT_DIR$/FirstPage.html" />
@@ -147,6 +146,7 @@
         <option value="$PROJECT_DIR$/Application.html" />
         <option value="$PROJECT_DIR$/CSSforApplication.css" />
         <option value="$PROJECT_DIR$/ForFirstPage.js" />
+        <option value="$PROJECT_DIR$/TestJS.html" />
       </list>
     </option>
   </component>
@@ -230,12 +230,12 @@
       <workItem from="1524141395055" duration="7907000" />
       <workItem from="1524469669784" duration="15205000" />
       <workItem from="1524999617213" duration="18230000" />
-      <workItem from="1525077604801" duration="8109000" />
+      <workItem from="1525077604801" duration="8706000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75548000" />
+    <option name="totallyTimeSpent" value="76145000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -248,7 +248,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2321523" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3295964" />
@@ -591,16 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestJS.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="n#STYLE#0;n#button#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/002_Flexbox.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
@@ -669,7 +658,17 @@
     <entry file="file://$PROJECT_DIR$/ForFirstPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestJS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="n#STYLE#0;n#button#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -20,6 +20,8 @@
 
             var b = document.getElementById("TEXT")//ищет по айди текст
             b.innerText='Ты изменил текст!  foo='+foo; // меняем текст и выводит переменную кликера
+
+
             if (foo%10==0&&foo!=0){
                 var c = document.getElementById("SECONDTEXT")
                 c.hidden=false;
@@ -27,6 +29,10 @@
 
 
             }
+            if (foo>=50){var c = document.getElementById("SECONDTEXT")
+                c.hidden=false;
+             c.innerText='ГЛЕБ, Ты пидорасик!!! >:C'; }
+
         }
 
 
